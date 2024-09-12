@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rullet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147646f6bf368d84760e8c0c4a0d56e2ceaa2ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ae4bbda9fde89a0c46e77432bf17797a1ef926")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rullet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rullet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
