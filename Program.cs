@@ -7,7 +7,7 @@ namespace YourNamespace
     {
         static void Main(string[] args)
         {
-            int balance ;
+            int balance =0 ;
             int bet = 0;
             int number = 0;
             int section =0 ;
@@ -16,14 +16,14 @@ namespace YourNamespace
             bool ext = false ;
 
             System.Console.WriteLine("Welcome To The Roulette");
-            System.Console.WriteLine("Please Deposit your MONEY!!:\n");
+            System.Console.WriteLine("Please Deposit your MONEY!!:");
             balance = int.Parse(Console.ReadLine());
             if ( balance < 0){
                 System.Console.WriteLine("YOU ARE TOO BROKE BYE BYE !!!");
                 ext = true;
             }
 
-            while (ext) {
+            while (!ext) {
                 
                 System.Console.WriteLine("Your balance is:" + balance);
                 System.Console.WriteLine("Please select one of the options:");
@@ -34,22 +34,23 @@ namespace YourNamespace
                     case 1:
                         System.Console.WriteLine("What color would you like to bet ?\nRed Black Green");
                         color = Console.ReadLine().ToLower();
-                        if (color != "red" || color != "black" || color != "green")
-                        {System.Console.WriteLine("wrong input"); ext = true;}
+                        if (color != "red" && color != "black" && color != "green")
+                        {System.Console.WriteLine("wrong input"); ext = true; }
                         System.Console.WriteLine("Please insert the amount of the bet:");
                         bet = int.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
-                        {System.Console.WriteLine("Wrong input"); ext  = true;}
+                        {System.Console.WriteLine("Wrong input"); ext  = true; }
+                        
                         break;
                     case 2:
                         System.Console.WriteLine("Place your bet on a number between 0 - 36");
                         number = int.Parse(Console.ReadLine());
                         if ( number < 0 || number > 36)
-                        {System.Console.WriteLine("wrong input"); ext = true;}
+                        {System.Console.WriteLine("wrong input"); ext = true; } 
                         System.Console.WriteLine("Please insert the amount of the bet:");
                         bet = int.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
-                        {System.Console.WriteLine("Wrong input"); ext  = true;}
+                        {System.Console.WriteLine("Wrong input"); ext  = true; }
                         break;
                     case 3:
                         System.Console.WriteLine("Please choose a section to bet on");
@@ -60,10 +61,10 @@ namespace YourNamespace
                         System.Console.WriteLine("Please insert the amount of the bet:");
                         bet = int.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
-                        {System.Console.WriteLine("Wrong input"); ext  = true;}
+                        {System.Console.WriteLine("Wrong input"); ext  = true; }
                         break;
                     case 4:
-                        System.Console.WriteLine("Please select::\n1)EVEN\n2)ODD");
+                        System.Console.WriteLine("Please select:\n1)EVEN\n2)ODD");
                         evenOrOdd = int.Parse(Console.ReadLine());
                         if (evenOrOdd < 1 || evenOrOdd > 2)
                         {System.Console.WriteLine("wrong input"); ext = true;}
@@ -177,6 +178,10 @@ namespace YourNamespace
                             System.Console.WriteLine("You lose!");
                             balance -= bet ;
                         }
+                        break;
+                    case 5:
+                        System.Console.WriteLine("Good Bye");
+                        ext = true;
                         break;
                     default:
                         System.Console.WriteLine("Wrong input");

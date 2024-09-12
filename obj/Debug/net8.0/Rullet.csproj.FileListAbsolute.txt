@@ -12,3 +12,4 @@ D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\refint\Rull
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.pdb
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.genruntimeconfig.cache
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\ref\Rullet.dll
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.sourcelink.json
