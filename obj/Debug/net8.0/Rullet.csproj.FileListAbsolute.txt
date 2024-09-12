@@ -1,0 +1,14 @@
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\bin\Debug\net8.0\Rullet.exe
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\bin\Debug\net8.0\Rullet.deps.json
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\bin\Debug\net8.0\Rullet.runtimeconfig.json
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\bin\Debug\net8.0\Rullet.dll
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\bin\Debug\net8.0\Rullet.pdb
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.AssemblyInfoInputs.cache
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.AssemblyInfo.cs
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.csproj.CoreCompileInputs.cache
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.dll
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\refint\Rullet.dll
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.pdb
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.genruntimeconfig.cache
+D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\ref\Rullet.dll
