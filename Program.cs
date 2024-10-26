@@ -7,18 +7,18 @@ namespace YourNamespace
     {
         static void Main(string[] args)
         {
-            int balance =0 ;
-            int bet = 0;
-            int number = 0;
-            int section =0 ;
-            int evenOrOdd = 0;
+            float balance =0 ;
+            float bet = 0;
+            long number = 0;
+            long section =0 ;
+            long evenOrOdd = 0;
             string color = "";
             bool ext = false ;
             bool correct_input = true;
 
             System.Console.WriteLine("Welcome To The Roulette");
             System.Console.WriteLine("Please Deposit your MONEY!!:");
-            balance = int.Parse(Console.ReadLine());
+            balance = float.Parse(Console.ReadLine());
             if ( balance < 0){
                 System.Console.WriteLine("YOU ARE TOO BROKE BYE BYE !!!");
                 ext = true;
@@ -29,7 +29,7 @@ namespace YourNamespace
                 System.Console.WriteLine("Your balance is:" + balance);
                 System.Console.WriteLine("Please select one of the options:");
                 System.Console.WriteLine("1)Bet on COLOR\n2)Bet on Number\n3)Bet on a SECTION\n4)Bet on EVEN or ODD\n5)EXIT");
-                int choice = int.Parse(Console.ReadLine());
+                long choice = long.Parse(Console.ReadLine());
                 //menu options
                 switch (choice){
                     case 1:
@@ -38,18 +38,18 @@ namespace YourNamespace
                         if (color != "red" && color != "black" && color != "green")
                         {System.Console.WriteLine("wrong input"); correct_input = false; break;}
                         System.Console.WriteLine("Please insert the amount of the bet:");
-                        bet = int.Parse(Console.ReadLine());
+                        bet = float.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
                         {System.Console.WriteLine("Wrong input"); correct_input = false; break;}
                         correct_input = true;
                         break;
                     case 2:
                         System.Console.WriteLine("Place your bet on a number between 0 - 36");
-                        number = int.Parse(Console.ReadLine());
+                        number = long.Parse(Console.ReadLine());
                         if ( number < 0 || number > 36)
                         {System.Console.WriteLine("wrong input"); correct_input = false; break;} 
                         System.Console.WriteLine("Please insert the amount of the bet:");
-                        bet = int.Parse(Console.ReadLine());
+                        bet = float.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
                         {System.Console.WriteLine("Wrong input"); correct_input = false; break;}
                         correct_input = true;
@@ -57,22 +57,22 @@ namespace YourNamespace
                     case 3:
                         System.Console.WriteLine("Please choose a section to bet on");
                         System.Console.WriteLine("1)1-18\n2)19-36\n3)1-12\n4)13-24\n5)25-36");
-                        section = int.Parse(Console.ReadLine());
+                        section = long.Parse(Console.ReadLine());
                         if (section < 1 || section > 5)
                         {System.Console.WriteLine("wrong input"); correct_input = false; break;}
                         System.Console.WriteLine("Please insert the amount of the bet:");
-                        bet = int.Parse(Console.ReadLine());
+                        bet = float.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
                         {System.Console.WriteLine("Wrong input"); correct_input = false; break;}
                         correct_input = true;
                         break;
                     case 4:
                         System.Console.WriteLine("Please select:\n1)EVEN\n2)ODD");
-                        evenOrOdd = int.Parse(Console.ReadLine());
+                        evenOrOdd = long.Parse(Console.ReadLine());
                         if (evenOrOdd < 1 || evenOrOdd > 2)
                         {System.Console.WriteLine("wrong input"); correct_input = false; break;}
                         System.Console.WriteLine("Please insert the amount of the bet:");
-                        bet = int.Parse(Console.ReadLine());
+                        bet = float.Parse(Console.ReadLine());
                         if (bet > balance || bet < 0)
                         {System.Console.WriteLine("Wrong input"); correct_input = false; break;}
                         correct_input = true;
@@ -174,8 +174,9 @@ namespace YourNamespace
                     case 4:
                         System.Console.WriteLine(result.Item1 + " " + result.Item2);
                         bool isEven = result.Item1 % 2 == 0;
-                        if ((evenOrOdd == 1 && isEven) || (evenOrOdd == 2 && !isEven))
+                        if ((evenOrOdd == 1 && isEven && result.Item1 != 0) || (evenOrOdd == 2 && !isEven && result.Item1 != 0))
                         {
+                            
                             System.Console.WriteLine("You win!");
                             bet = bet * 2;
                             System.Console.WriteLine("$" + bet);
