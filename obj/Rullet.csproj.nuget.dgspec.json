@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arie app buisens\\simple apps\\Rullet in c#\\Rullet\\Rullet.csproj": {}
+    "D:\\Rullet\\Roulette\\Rullet.csproj": {}
   },
   "projects": {
-    "D:\\Arie app buisens\\simple apps\\Rullet in c#\\Rullet\\Rullet.csproj": {
+    "D:\\Rullet\\Roulette\\Rullet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arie app buisens\\simple apps\\Rullet in c#\\Rullet\\Rullet.csproj",
+        "projectUniqueName": "D:\\Rullet\\Roulette\\Rullet.csproj",
         "projectName": "Rullet",
-        "projectPath": "D:\\Arie app buisens\\simple apps\\Rullet in c#\\Rullet\\Rullet.csproj",
+        "projectPath": "D:\\Rullet\\Roulette\\Rullet.csproj",
         "packagesPath": "C:\\Users\\Arie\\.nuget\\packages\\",
-        "outputPath": "D:\\Arie app buisens\\simple apps\\Rullet in c#\\Rullet\\obj\\",
+        "outputPath": "D:\\Rullet\\Roulette\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arie\\AppData\\Roaming\\NuGet\\NuGet.Config"

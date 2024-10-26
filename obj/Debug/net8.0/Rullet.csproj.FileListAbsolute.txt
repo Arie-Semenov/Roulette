@@ -13,3 +13,18 @@ D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.pdb
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.genruntimeconfig.cache
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\ref\Rullet.dll
 D:\Arie app buisens\simple apps\Rullet in c#\Rullet\obj\Debug\net8.0\Rullet.sourcelink.json
+D:\Rullet\Roulette\bin\Debug\net8.0\Rullet.exe
+D:\Rullet\Roulette\bin\Debug\net8.0\Rullet.deps.json
+D:\Rullet\Roulette\bin\Debug\net8.0\Rullet.runtimeconfig.json
+D:\Rullet\Roulette\bin\Debug\net8.0\Rullet.dll
+D:\Rullet\Roulette\bin\Debug\net8.0\Rullet.pdb
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.AssemblyInfoInputs.cache
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.AssemblyInfo.cs
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.csproj.CoreCompileInputs.cache
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.sourcelink.json
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.dll
+D:\Rullet\Roulette\obj\Debug\net8.0\refint\Rullet.dll
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.pdb
+D:\Rullet\Roulette\obj\Debug\net8.0\Rullet.genruntimeconfig.cache
+D:\Rullet\Roulette\obj\Debug\net8.0\ref\Rullet.dll
